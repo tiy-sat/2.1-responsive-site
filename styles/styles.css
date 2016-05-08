@@ -1,3 +1,66 @@
-.image {
-  image-orientation: 10rem;
+html {
+  text-align: center;
+}
+
+.article__personal {
+  display: inline-block;
+  background: green;
+  color: white;
+  text-align: center;;
+}
+
+.article__small-business {
+  background: blue;
+  display: inline-block;
+  color: white;
+  text-align: center;;;
+
+}
+
+.article__enterprise {
+  background: black;
+  color: white;
+  display: inline-block;
+  text-align: center;;;
+}
+
+
+.money {
+  text-align: center;
+}
+
+.month {
+  text-align: center;
+  color: gray;
+
+}
+
+.features {
+  text-align: center;
+  list-style: none;
+  border-style: solid;
+}
+
+.list_items {
+  border-style: solid;
+  border-color: 	rgb(176,176,176);
+}
+
+
+
+.navButtons{
+  display: inline;
+  color: red;
+}
+
+
+.simple_articles {
+  display: inline-block;
+}
+
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
 }
