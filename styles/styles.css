@@ -6,14 +6,18 @@ html {
   display: inline-block;
   background: green;
   color: white;
-  text-align: center;;
+  text-align: center;
+  width: 338px;
+  height: 218;
 }
 
 .article__small-business {
   background: blue;
   display: inline-block;
   color: white;
-  text-align: center;;;
+  text-align: center;
+  width: 338px;
+  height: 218;
 
 }
 
@@ -21,9 +25,15 @@ html {
   background: black;
   color: white;
   display: inline-block;
-  text-align: center;;;
+  text-align: center;
+  width: 338px;
+  height: 218;
 }
 
+.option1 {
+  background: green;
+
+}
 
 .money {
   text-align: center;
@@ -38,12 +48,16 @@ html {
 .features {
   text-align: center;
   list-style: none;
-  border-style: solid;
+  padding-left: 0;
 }
 
 .list_items {
   border-style: solid;
-  border-color: 	rgb(176,176,176);
+  border-color: rgb(176,176,176);
+  background-color: white;
+  color: gray;
+  width: 375x;
+  height: 46px;
 }
 
 
@@ -54,13 +68,14 @@ html {
 }
 
 
-.simple_articles {
+.simple__articles {
   display: inline-block;
+  text-align: justify;
+  box-sizing: border-box;
 }
 
 
-@media only screen and (orientation: landscape) {
-    body {
-        background-color: lightblue;
-    }
+@media (min-width: 478px) {
+
+
 }
