@@ -1,6 +1,36 @@
 html {
   text-align: center;
+  font-family: sans-serif;
+
 }
+
+footer {
+  position: relative;
+  background: black;
+}
+
+.image {
+  position: absolute;
+
+
+}
+
+.picture {
+  max-width: 100%;
+}
+
+.text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  left: 350px;
+  top: 400px;
+  text-align: right;
+}
+
+
 
 .article__personal {
   display: inline-block;
@@ -9,6 +39,7 @@ html {
   text-align: center;
   width: 338px;
   height: 218;
+
 }
 
 .article__small-business {
@@ -19,6 +50,13 @@ html {
   width: 338px;
   height: 218;
 
+}
+
+.button {
+  color: black;
+  background: white;
+  margin-top: 12px;
+  border-radius: 20%;
 }
 
 .article__enterprise {
@@ -41,8 +79,8 @@ html {
 
 .month {
   text-align: center;
-  color: gray;
-
+  color: #e7ebe5;
+  opacity: 50%;
 }
 
 .features {
@@ -72,10 +110,13 @@ html {
   display: inline-block;
   text-align: justify;
   box-sizing: border-box;
+  word-wrap: normal;
 }
 
 
-@media (min-width: 478px) {
-
+@media only screen and (max-width: 479px) {
+  body {
+    background-color: red;
+  }
 
 }
