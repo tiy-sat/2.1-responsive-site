@@ -1,88 +1,85 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-    <link rel="stylesheet" href="styles/styles.css" media="screen" title="no title" charset="utf-8">
-    <title>Resposive Site</title>
-<nav class="navButtons">
-  <a href="#">YOUR LOGO</a>
-  <a href="#">Home</a>
-  <a href="#">Pricing</a>
-  <a href="#">Contact</a>
-  <!-- <div class="image"> -->
-    <!-- <img class="picture" src="https://tiy-learn-content.s3.amazonaws.com/49bdc7fc-background.jpg" alt="" /> -->
-    <!-- <h2 class="text"> Simple Pricing. Try before you buy.</h2> -->
-  <!-- </div> -->
-</nav>
+    <meta charset="utf-8">
+    <title>Responsive Site</title>
+    <meta name="viewport" content="width=device-width",  "initial-scale=1.0">
   </head>
   <body>
-  <main>
-    <article class="article__personal">
-      <h2 class="option1">PERSONAL</h2>
-        <div class="money">$5</div>
-        <p class="month">PER MONTH</p>
-        <ul class="features">
-          <li class="list_items">Free setup</li>
-          <li class="list_items">Custom sub domain</li>
-          <li class="list_items">Standard customer support</li>
-          <li class="list_items">1GB file storage</li>
-          <li class="list_items">1 database</li>
-          <li class="list_items">Unlimited bandwidth</li>
-          <button class="button" type="button" name="button">CHOOSE</button>
-      </ul>
-    </article>
-      <article class="article__small-business">
-          <h2>SMALL BUSINESS</h2>
-            <div class="money">$25</div>
-            <p class="month">PER MONTH</p>
-            <ul class="features">
-              <li class="list_items">Free setup</li>
-              <li class="list_items">Use your own domain</li>
-              <li class="list_items">Standard customer support</li>
-              <li class="list_items">10GB file storage</li>
-              <li class="list_items">5 databases</li>
-              <li class="list_items">Unlimited bandwidth</li>
-              <button class="button" type="button" name="button">CHOOSE</button>
+    <header>
+      <nav class="menuBar">
+        <a class="menuBar__logo" href="#">YOUR LOGO</a>
+        <a class="menuBar__standard" href="#home">Home</a>
+        <a class="menuBar__pricing" href="#pricing">Pricing</a>
+        <a class="menuBar__standard" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="topImage">
+      <img class="topImage__picture" src="styles/images/headerTree.jpg" alt="Simple Pricing" />
+      <h2  class="topImage__title">Simple Pricing. <br> Try before you buy.</h2>
+    </main>
+
+    <section class="wrapper">
+      <section>
+        <article class="pricingDetail__box">
+          <div class="background__personal">
+            <h3 class="pricingDetail__box--level">Personal</h3>
+            <h2 class="pricingDetail__box--price">$5</h2>
+            <h4 class="pricingDetail__box--permonth">Per Month</h4>
+          </div>
+          <ul class="pricingDetail__box--list">
+            <li>Free Setup</li>
+            <li>Custom sub-domain</li>
+            <li>Standard customer support</li>
+            <li>1GB file storage</li>
+            <li>1 database</li>
+            <li>Unlimited Bandwith</li>
           </ul>
+          <div class="chooseBox">
+            <a class="clickChoose"href="#personal">Choose</a>
+          </div>
         </article>
-        <article class="article__enterprise">
-          <h2 class="option2">ENTERPRISE</h2>
-           <div class="money">$45</div>
-            <p class="month">PER MONTH</p>
-            <ul class="features">
-              <li class="list_items">Free setup</li>
-              <li class="list_items">Use your own domain</li>
-              <li class="list_items">Premium customer support</li>
-              <li class="list_items">Unlimited file storage</li>
-              <li class="list_items">25 database</li>
-              <li class="list_items">Unlimited bandwidth</li>
-              <button class="button" type="button" name="button">CHOOSE</button>
-            </ul>
-          </article>
-        </main>
-        <section class="simple__articles">
-        <article class="simple__article1">
-          <h2 class="option2">GET START TODAY</h2>
-            <p>Tumblr put a bird on it squid shabby chic, chambray vinyl church-key pork belly craft beer sartorial listicle chartreuse mixtape chillwave mustache. Blue bottle helvetica farm-to-table, keffiyeh street art normcore XOXO asymmetrical trust fund fashion axe tacos deep v organic lumbersexual cronut.
-          </p>
+        <article class="pricingDetail__box">
+          <div class="background__small">
+            <h3 class="pricingDetail__box--level">Small Business</h3>
+            <h2 class="pricingDetail__box--price">$25</h2>
+            <h4 class="pricingDetail__box--permonth">Per Month</h4>
+          </div>
+          <ul class="pricingDetail__box--list">
+            <li>Free Setup</li>
+            <li>Use your domain</li>
+            <li>Standard customer support</li>
+            <li>10GB file storage</li>
+            <li>5 databases</li>
+            <li>Unlimited Bandwith</li>
+          </ul>
+          <div class="chooseBox">
+            <a class="clickChoose" href="#">Choose</a>
+          </div>
         </article>
-      <article class="simple__article2">
-        <h2 class="option3">PAY MONTHLY OR ANNUALLY</h2>
-          <p>90's selfies stumptown, asymmetrical drinking vinegar narwhal gluten-free church-key banh mi meggings. Gluten-free cliche freegan pork belly fanny pack chambray. Banh mi pop-up bushwick 8-bit. Heirloom meh shabby chic, truffaut disrupt kinfolk portland distillery VHS franzen schlitz.
-         </p>
-      </article>
-  <article>
-    <h2>24/7 CUSTOMER SERVICE</h2>
-      <p>Cray keytar 8-bit chicharrones sartorial chillwave. Cliche jean shorts williamsburg vegan, tofu etsy cred pug. Sartorial literally post-ironic, sustainable single-origin coffee cardigan fanny pack put a bird on it jean shorts food truck art party taxidermy tofu YOLO.
-      </p>
-  <article>
-    <h2>CANCEL YOUR PLAN ANYTIME</h2>
-      <p>Cray keytar 8-bit chicharrones sartorial chillwave. Cliche jean shorts williamsburg vegan, tofu etsy cred pug. Sartorial literally post-ironic, sustainable single-origin coffee cardigan fanny pack put a bird on it jean shorts food truck art party taxidermy tofu YOLO.
-      </p>
+        <article class="pricingDetail__box">
+          <div class="background__enterprise">
+            <h3 class="pricingDetail__box--level">Enterprise</h3>
+            <h2 class="pricingDetail__box--price">$45</h2>
+            <h4 class="pricingDetail__box--permonth">Per Month</h4>
+          </div>
+          <ul class="pricingDetail__box--list">
+            <li>Free Setup</li>
+            <li>Use your domain</li>
+            <li>Premium customer support</li>
+            <li>Unlimited file storage</li>
+            <li>25 databases</li>
+            <li>Unlimited Bandwith</li>
+          </ul>
+          <div class="chooseBox">
+            <a class="clickChoose" href="#">Choose</a>
+          </div>
+
+      </section>
+
     </section>
-<footer>
-  <a href="#">Try now</a>
-</footer>
+
+
   </body>
 </html>
