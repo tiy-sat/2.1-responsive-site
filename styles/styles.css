@@ -47,7 +47,7 @@ body {
   color: rgb(255, 255, 255);
   font-weight: 400;
   text-align: center;
-  text-shadow: 2px, 2px, 1px, rgb(50, 50, 50, 1);
+  text-shadow: 2px, 2px, 1px, rgba(50, 50, 50, 0.1);
 }
 
 .pricingDetail {
@@ -87,19 +87,20 @@ body {
 }
 
 .pricingDetail__box--list li {
-  border: .5px solid rgba(50, 50, 50, .3);
+  border: .5px solid rgba(50, 50, 50, 0.3);
   background-color: rgb(242, 242, 242);
   line-height: 2.5;
 }
 
 .chooseBox {
   height: 7rem
-  border: 1px solid rgba(50, 50, 50, .3);
+  border: 1px solid rgba(50, 50, 50, 0.3);
   padding: 2.5rem;
+  text-align: center;
 }
 
 .clickChoose {
-  border: 1px solid rgba(50, 50, 50, .3);
+  border: 1px solid rgba(50, 50, 50, 0.3);
   border-radius: 2rem;
   color: rgb(0, 0, 0);
   font-weight: 600;
@@ -146,12 +147,12 @@ body {
 }
 
 .Info__text {
-  color:rgba( 0, 0, 0, .7);
+  color:rgba( 0, 0, 0, 0.7);
   margin-top: 0;
 }
 
 .foot {
-  color: rgba(255, 255, 255, .4);
+  color: rgba(255, 255, 255, 0.4);
   background-color: rgb( 0, 0, 0);
   text-align: center;
   margin-top: 4rem;
@@ -201,8 +202,63 @@ body {
 }
 
 
+@media only screen
+  and (min-width: 479px) {
+    .topImage__picture {
+      height: 40rem;
+      overflow: hidden;
+    }
+
+    .topImage__title {
+      top: 0;
+      right: 0;
+      left: 0;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      padding-top: 14rem;
+      z-index: 1;
+      font-size: 3rem;
+      font-weight: 400;
+      text-align: center;
+      text-shadow: 2px 2px 1px rgba(50, 50, 50, 0.1);
+    }
+  }
 
 
+@media only screen
+  and (min-width: 768px) {
+    .pricingDetail {
+      font-size: 0;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+
+  .pricingDetail__box {
+    display: inline-block;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 33%;
+
+  }
+
+  .Info {
+    font-size: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .Info__box {
+    font-size: 1.7rem;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .Info__text {
+    font-size: 1.4rem;
+    color: rgba(0,0,0,0.7)
+  }
 
 @media only screen
   and (min-width:979p) {
