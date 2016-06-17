@@ -30,13 +30,14 @@ body {
   padding: 1.5rem;
 }
 
-.topImage {
-  height: 20rem;
-  overflow: hidden;
+.topImage__title {
+  position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%; 
 }
 
 .topImage {
-  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -47,7 +48,7 @@ body {
   color: rgb(255, 255, 255);
   font-weight: 400;
   text-align: center;
-  text-shadow: 2px, 2px, 1px, rgba(50, 50, 50, 0.1);
+  text-shadow: 2px, 2px, 1px, rgba(50, 50, 50, 1);
 }
 
 .pricingDetail {
@@ -77,7 +78,7 @@ body {
   font-size: 1.8rem;
   margin-top: 0;
   margin-bottom: 0;
-  color: blue;
+  color: white;
 }
 
 .pricingDetail__box--list {
