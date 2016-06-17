@@ -34,21 +34,24 @@ body {
   position: absolute;
    top: 200px;
    left: 0;
-   width: 100%; 
+   width: 100%;
 }
 
 .topImage {
-  top: 0;
-  right: 0;
-  left: 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-image: url("../images/headerTree.jpg");
+  height: 400px;
   padding-top: 3rem;
   padding-left: 5rem;
-  z-index: 1;
   font-size: 3rem;
   color: rgb(255, 255, 255);
   font-weight: 400;
   text-align: center;
   text-shadow: 2px, 2px, 1px, rgba(50, 50, 50, 1);
+  width: 100%;
+  position: relative;
+
 }
 
 .pricingDetail {
